@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:screenOrientation="landscape" >
+
+    <TextView
+        android:id="@+id/team1Title"
+        android:layout_width="290dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textSize="46px"
+        android:text="Team A" />
+
+    <TextView
+        android:id="@+id/team2Title"
+        android:layout_width="290dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:textSize="46px"
+        android:text="Team B" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="290dp"
+        android:layout_height="184dp"
+        android:layout_below="@+id/team1Title"
+        android:textSize="96px"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/substractButton"
+        android:layout_width="290dp"
+        android:layout_height="184dp"
+        android:layout_below="@+id/team2Title"
+        android:layout_alignParentRight="true"
+        android:textSize="96px"
+        android:text="0"
+        />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="291dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:text="Reset" />
+
+    <Button
+        android:id="@+id/undoButton"
+        android:layout_width="291dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Undo" />
+
+</RelativeLayout>
+
