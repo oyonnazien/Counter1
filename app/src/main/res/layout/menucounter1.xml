@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="3dp"
+    android:paddingTop="3dp"
+    android:screenOrientation="landscape" >
+
+
+<!--
+    <Spinner
+        android:id="@+id/SetsSpinner"
+        android:layout_width="12dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/SetsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="sets to win the game"
+        android:layout_toRightOf="@+id/SetsSpinner" />
+
+    <Spinner
+        android:id="@+id/PointsSpinner"
+        android:layout_width="12dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SetsSpinner" />
+    <TextView
+        android:id="@+id/PointsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="points to win the game"
+        android:layout_toRightOf="@+id/PointsSpinner"
+        android:layout_below="@+id/SetsSpinner" />
+-->
+    <RadioButton
+        android:id="@+id/MTO_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PointsSpinner"
+        android:text="TimeOuts" />
+
+    <RadioButton
+        android:id="@+id/MTTO_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/MTO_Button"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:text="Technical TimeOuts (8/16)" />
+
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="3dp"
+    android:paddingTop="3dp"
+    android:screenOrientation="landscape" >
+
+
+    <!--
+        <Spinner
+            android:id="@+id/SetsSpinner"
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/SetsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="sets to win the game"
+            android:layout_toRightOf="@+id/SetsSpinner" />
+
+        <Spinner
+            android:id="@+id/PointsSpinner"
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/SetsSpinner" />
+        <TextView
+            android:id="@+id/PointsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="points to win the game"
+            android:layout_toRightOf="@+id/PointsSpinner"
+            android:layout_below="@+id/SetsSpinner" />
+    -->
+    <CheckBox
+        android:id="@+id/MTO_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PointsSpinner"
+        android:text="TimeOuts"
+        android:checked="true" />
+
+    <CheckBox
+        android:id="@+id/MTTO_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/MTO_Button"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:text="Technical TimeOuts (8/16)"
+        android:checked="true" />
+
+    <EditText
+        android:id="@+id/MVTO_EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/MTTO_Button"
+        android:layout_alignStart="@+id/MTTO_Button"
+        android:layout_below="@+id/MTTO_Button"
+        android:ems="1"
+        android:inputType="textPersonName"
+        android:text="1" />
+    <TextView
+        android:id="@+id/MVTO_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MTTO_Button"
+        android:layout_alignBottom="@+id/MVTO_EditText"
+        android:layout_alignBaseline="@id/MVTO_EditText"
+        android:layout_toRightOf="@+id/MVTO_EditText"
+        android:textColor="@color/colorWhiteText"
+        android:text="Additional Time Outs" />
+    <TextView
+        android:id="@+id/textViewTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/MVTO_EditText"
+        android:textColor="@color/colorWhiteText"
+        android:text="TextView" />
+
+</RelativeLayout>

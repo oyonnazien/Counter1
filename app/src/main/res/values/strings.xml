@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Counter</string>
+    <string name="resetButton">Reset</string>
+    <string name="newSet">New set</string>
+    <string name="wonSetT">Set won for </string>
+    <string name="timeOutT">Time Out</string>
+    <string name="rename">Rename Team</string>
+    <string name="renameQ">What\'s the new name for Team</string>
+    <string name="teamu">Team</string>
+    <string name="teamU">TEAM</string>
+    <string name="resetQ">Are you sure you want to reset?</string>
+    <string name="resetT">Confirm reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
 </resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="192dp"
+    android:layout_height="236dp"
+    android:paddingLeft="6dp"
+    android:paddingRight="6dp"
+    android:paddingBottom="6dp"
+    android:paddingTop="6dp"
+    android:background="@color/colorPrimaryDark"
+    android:screenOrientation="landscape">
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="1"
+        android:textSize="24dp"
+        android:textColor="@color/colorDarkBlueText"
+        android:background="@color/colorDarkBlue"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@+id/button0"
+        android:text="1"
+        android:textSize="24dp"
+        android:textColor="@color/colorOrangeText"
+        android:background="@color/colorOrange" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@+id/button1"
+        android:text="1"
+        android:textSize="24dp"
+        android:textColor="@color/colorRedText"
+        android:background="@color/colorRed" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/button0"
+        android:text="1"
+        android:textSize="24dp"
+        android:textColor="@color/colorWhiteText"
+        android:background="@color/colorWhite" />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@+id/button3"
+        android:layout_below="@+id/button0"
+        android:text="1"
+        android:textSize="24dp"
+        android:textColor="@color/colorYellowText"
+        android:background="@color/colorYellow" />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@+id/button4"
+        android:layout_below="@+id/button0"
+        android:text="1"
+        android:textSize="24dp"
+        android:textColor="@color/colorBlackText"
+        android:background="@color/colorBlack" />
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/button3"
+        android:text="1"
+        android:textSize="24dp"
+        android:textColor="@color/colorGreyText"
+        android:background="@color/colorGrey" />
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@+id/button6"
+        android:layout_below="@+id/button3"
+        android:text="1"
+        android:textSize="24dp"
+        android:textColor="@color/colorGreenText"
+        android:background="@color/colorGreen" />
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@+id/button7"
+        android:layout_below="@+id/button3"
+        android:text="1"
+        android:textSize="24dp"
+        android:textColor="@color/colorLightBlueText"
+        android:background="@color/colorLightBlue" />
+    <Button
+        android:id="@+id/buttonColorOK"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/button6"
+        android:text="OK" />
+    <Button
+        android:id="@+id/buttonColorCancel"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/button6"
+        android:layout_toRightOf="@+id/buttonColorOK"
+        android:text="Cancel" />
+</RelativeLayout>
